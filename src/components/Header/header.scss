@@ -1,0 +1,11 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: var(--theme-background-default);
+  color: white;
+  padding: 22px 60px;
+  border-bottom: 1px solid var(--theme-accent-salt-default);
+}
+.header-text {
+  font-size: 26px;
+}

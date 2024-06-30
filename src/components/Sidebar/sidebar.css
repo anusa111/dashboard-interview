@@ -1,0 +1,19 @@
+.sidebar {
+  color: var(--theme-accent-salt-default);
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 30px 0px;
+  border-right: 1px solid var(--theme-accent-salt-default);
+}
+
+.icon {
+  color: var(--theme-accent-salt-default);
+}
+
+.sidebar-title {
+  padding: 10px 60px;
+  background-color: var(--theme-background-subtle);
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--theme-accent-salt-default);
+}/*# sourceMappingURL=sidebar.css.map */

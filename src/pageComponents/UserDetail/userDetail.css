@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-8 {
+  grid-column: span 9;
+}
+
+.back-to-subscriber {
+  padding: 10px 60px;
+  background-color: var(--theme-background-subtle);
+}
+
+.margin-bottom {
+  margin-bottom: 20%;
+}/*# sourceMappingURL=userDetail.css.map */

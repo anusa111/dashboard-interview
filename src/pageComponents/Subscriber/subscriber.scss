@@ -1,0 +1,42 @@
+table th,
+td {
+  border: 1px solid white;
+  padding: 16px 20px;
+  min-width: 30vh;
+  color: white;
+  border-collapse: collapse !important;
+  text-align: center;
+}
+
+table th {
+  font-size: 22px;
+}
+
+.text {
+  text-decoration: none;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  list-style: none;
+  margin-bottom: 20%;
+}
+
+.page-num {
+  border-radius: 8px;
+  padding: 8px;
+}
+.page-num:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--theme-onion-default);
+  color: black;
+  border-radius: 8px;
+  padding: 8px;
+}
