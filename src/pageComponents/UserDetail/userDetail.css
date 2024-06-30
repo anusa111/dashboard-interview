@@ -17,6 +17,7 @@
 .back-to-subscriber {
   padding: 10px 60px;
   background-color: var(--theme-background-subtle);
+  color: white;
 }
 
 .margin-bottom {

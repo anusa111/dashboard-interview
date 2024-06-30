@@ -39,7 +39,7 @@ const Subscriber = () => {
   };
 
   if (loading) {
-    return <div>Loading</div>;
+    return <div className="flex-center-layout">Loading</div>;
   } else if (subscriberData) {
     return (
       <div className="flex-col-layout">
