@@ -1,19 +1,52 @@
-table th,
-td {
-  border: 1px solid white;
+.header-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th:not(:first-child),
+td:not(:first-child) {
   padding: 16px 20px;
   min-width: 30vh;
   color: white;
-  border-collapse: collapse !important;
   text-align: center;
+  width: 100% !important;
 }
 
+table tr th:first-child {
+  padding: 16px 20px;
+  font-size: 18px;
+  color: white;
+  width: 40px !important;
+}
+table tr th:last-child div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  .sort-btn {
+    cursor: pointer;
+  }
+}
+
+table tr td:first-child {
+  padding: 16px 20px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+table tr:hover {
+  background-color: var(--theme-background-subtle);
+}
 table th {
   font-size: 22px;
-}
-
-.text {
-  text-decoration: none;
+  background-color: #343842;
 }
 
 .pagination {
@@ -39,4 +72,14 @@ table th {
   color: black;
   border-radius: 8px;
   padding: 8px;
+}
+
+.search-field {
+  background-color: #1c1f26;
+  outline: none;
+  color: white;
+  width: 20%;
+  padding: 16px 8px;
+  border-radius: 16px;
+  border: none;
 }

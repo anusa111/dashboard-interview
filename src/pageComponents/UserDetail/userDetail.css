@@ -1,17 +1,8 @@
-.container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 50px;
-  align-items: center;
+#container {
+  display: flex;
   justify-content: center;
-}
-
-.col-3 {
-  grid-column: span 3;
-}
-
-.col-8 {
-  grid-column: span 9;
+  align-items: center;
+  gap: 60px;
 }
 
 .back-to-subscriber {

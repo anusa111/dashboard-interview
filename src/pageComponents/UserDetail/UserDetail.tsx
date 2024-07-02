@@ -90,8 +90,8 @@ const UserDetail = () => {
                 } = user
                 return (
                   <div key={id.toLocaleString()}>
-                    <div className="container flex-center-layout">
-                      <div className="col-3">
+                    <div id="container">
+                      <div className="">
                         <img
                           src="/images/user.jpeg"
                           alt=""
@@ -103,7 +103,7 @@ const UserDetail = () => {
                           }}
                         />
                       </div>
-                      <div className="col-8 flex-col-layout">
+                      <div className=" flex-col-layout">
                         <div className="flex-row-layout">
                           <div>Name :</div>
                           <div>

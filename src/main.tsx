@@ -1,10 +1,13 @@
-import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import App from "./App.tsx";
-import "../src/styles/styles.css";
+import ReactDOM from "react-dom/client"
+import { BrowserRouter } from "react-router-dom"
+import "../src/styles/styles.css"
+import App from "./App.tsx"
+import { SubscribeContextProvider } from "./context/SubscriberContext.tsx"
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
-    <App />
+    <SubscribeContextProvider>
+      <App />
+    </SubscribeContextProvider>
   </BrowserRouter>,
-);
+)

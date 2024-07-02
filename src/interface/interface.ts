@@ -38,3 +38,19 @@ export interface IButton {
     name: string
   }
 }
+
+export interface ISubscriberContext {
+  search_by_user: string
+  set_search_by_user: React.Dispatch<React.SetStateAction<string>>
+  itemsPerPage: number
+  pageCount: any
+  setPageCount: React.Dispatch<React.SetStateAction<number>>
+  itemOffset: number
+  setItemOffset: React.Dispatch<React.SetStateAction<number>>
+  currentItems: any[] | null
+  setCurrentItems: React.Dispatch<React.SetStateAction<any[] | null>>
+
+  loading: boolean
+  subscriberData: any
+  handlePageClick: any
+}
